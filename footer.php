@@ -15,9 +15,9 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'jaguar_wp' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'jaguar_wp' ), 'WordPress' ); ?></a>
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'jaguarwp' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'jaguarwp' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'jaguar_wp' ), 'jaguar_wp', '<a href="https://automattic.com/" rel="designer">hugomedeiros</a>' ); ?>
+			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'jaguarwp' ), 'jaguarwp', '<a href="https://automattic.com/" rel="designer">hugomedeiros</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

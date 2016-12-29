@@ -14,27 +14,27 @@
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses jaguar_wp_header_style()
+ * @uses jaguarwp_header_style()
  */
-function jaguar_wp_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'jaguar_wp_custom_header_args', array(
+function jaguarwp_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'jaguarwp_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
 		'width'                  => 1000,
 		'height'                 => 250,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'jaguar_wp_header_style',
+		'wp-head-callback'       => 'jaguarwp_header_style',
 	) ) );
 }
-add_action( 'after_setup_theme', 'jaguar_wp_custom_header_setup' );
+add_action( 'after_setup_theme', 'jaguarwp_custom_header_setup' );
 
-if ( ! function_exists( 'jaguar_wp_header_style' ) ) :
+if ( ! function_exists( 'jaguarwp_header_style' ) ) :
 /**
  * Styles the header image and text displayed on the blog.
  *
- * @see jaguar_wp_custom_header_setup().
+ * @see jaguarwp_custom_header_setup().
  */
-function jaguar_wp_header_style() {
+function jaguarwp_header_style() {
 	$header_text_color = get_header_textcolor();
 
 	/*
