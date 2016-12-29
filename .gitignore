@@ -29,4 +29,4 @@ nbproject/*
 sftp-config.json
 
 # Project
-src/
+src/node_modules

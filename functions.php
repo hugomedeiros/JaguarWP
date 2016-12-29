@@ -105,7 +105,9 @@ add_action( 'widgets_init', 'jaguarwp_widgets_init' );
  * Enqueue scripts and styles.
  */
 function jaguarwp_scripts() {
-	wp_enqueue_style( 'jaguarwp-style', get_stylesheet_uri() );
+	//wp_enqueue_style( 'jaguarwp-style', get_stylesheet_uri() );
+
+  wp_enqueue_style( 'jaguarwp-style', get_template_directory_uri() . '/assets/css/style.css');
 
 	wp_enqueue_script( 'jaguarwp-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
