@@ -30,3 +30,4 @@ sftp-config.json
 
 # Project
 src/node_modules
+src/.sass-cache

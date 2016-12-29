@@ -12,7 +12,7 @@
 ?>
 
 	</div><!-- #content -->
-
+</div>
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'jaguarwp' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'jaguarwp' ), 'WordPress' ); ?></a>
